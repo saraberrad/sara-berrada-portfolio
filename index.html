@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090d" />
+    <meta name="description" content="Portfolio de Sara Berrada, ingénieure en génie informatique spécialisée en Java, Spring Boot, microservices et développement web." />
+    <title>Sara Berrada — Ingénieure logiciel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#accueil" aria-label="Sara Berrada, accueil">SB<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Ouvrir le menu">
+        <span></span><span></span>
+      </button>
+      <nav id="main-navigation" class="main-navigation" aria-label="Navigation principale">
+        <a href="#profil">Profil</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Expertise</a>
+        <a class="nav-contact" href="#contact">Me contacter <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="accueil" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="status-dot"></span> Ingénieure logiciel · Rabat, Maroc</p>
+          <h1 class="hero-title reveal" id="hero-title">Sara<br /><span>Berrada</span><i>.</i></h1>
+          <p class="hero-role reveal">Je conçois des expériences numériques <span>solides, utiles et vivantes.</span></p>
+          <p class="hero-summary reveal">Élève-ingénieure en génie informatique, certifiée Oracle Java 17. Je développe des applications web et des architectures microservices pensées pour durer.</p>
+          <div class="hero-actions reveal">
+            <a class="button button-primary" href="#projets">Découvrir mes projets <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="assets/Sara-Berrada-CV.pdf" target="_blank" rel="noreferrer">Voir mon CV <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-socials reveal" aria-label="Réseaux sociaux">
+            <a href="https://www.linkedin.com/in/saraberrada" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+            <span></span>
+            <p>Connectons-nous</p>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Portrait de Sara Berrada">
+          <div class="portrait-arch">
+            <img src="assets/sara-berrada.jpg" alt="Portrait de Sara Berrada" fetchpriority="high" />
+          </div>
+          <div class="portrait-index"><span>01</span><span>Rabat · Maroc</span></div>
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+        </div>
+        <a class="scroll-cue" href="#profil"><span></span> Défiler pour découvrir</a>
+      </section>
+
+      <section class="intro section-shell section-space" id="profil" aria-labelledby="intro-title">
+        <div class="section-kicker reveal"><span>01 / À propos</span><span class="kicker-line"></span></div>
+        <div class="intro-content">
+          <h2 class="intro-title reveal" id="intro-title">La technique a de l’impact quand elle <span>répond à un vrai besoin.</span></h2>
+          <div class="intro-aside reveal">
+            <p>De la conception d’architectures distribuées aux interfaces web, j’aime relier rigueur d’ingénierie et attention portée aux personnes qui utiliseront le produit.</p>
+            <p>Mes expériences en environnement bancaire m’ont appris à travailler sur des systèmes exigeants, en équipe et avec une démarche agile.</p>
+            <a class="text-link" href="#parcours">Mon parcours <span aria-hidden="true">↘</span></a>
+          </div>
+        </div>
+        <div class="ticker" aria-label="Domaines : Java, Spring Boot, microservices, Angular, React">
+          <div class="ticker-track" aria-hidden="true">
+            <span>Java 17</span><b>✳</b><span>Spring Boot</span><b>✳</b><span>Microservices</span><b>✳</b><span>Angular</span><b>✳</b><span>React</span><b>✳</b><span>Java 17</span><b>✳</b><span>Spring Boot</span><b>✳</b><span>Microservices</span><b>✳</b><span>Angular</span><b>✳</b><span>React</span><b>✳</b>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-shell section-space" id="parcours" aria-labelledby="experience-title">
+        <div class="section-kicker reveal"><span>02 / Expérience</span><span class="kicker-line"></span></div>
+        <div class="section-heading reveal">
+          <h2 id="experience-title">Apprendre en<br /><span>construisant.</span></h2>
+          <p>Deux expériences au cœur de projets numériques concrets, entre architecture, produit et collaboration.</p>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item reveal">
+            <div class="experience-date">Juil. — Août 2026</div>
+            <div class="experience-body">
+              <div class="experience-title-row"><h3>Stagiaire en développement logiciel</h3><span class="experience-number">01</span></div>
+              <p class="experience-company">Crédit Agricole du Maroc <span>· Rabat</span></p>
+              <p>Conception d’une plateforme de gestion des demandes de crédit avec une architecture microservices. Développement de services Spring Boot et d’une interface Angular, sécurisation des API REST par JWT, modélisation PostgreSQL et tests.</p>
+              <div class="tag-list"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>PostgreSQL</span><span>JWT</span></div>
+            </div>
+          </article>
+          <article class="experience-item reveal">
+            <div class="experience-date">Juin — Juil. 2025</div>
+            <div class="experience-body">
+              <div class="experience-title-row"><h3>Stagiaire en développement web</h3><span class="experience-number">02</span></div>
+              <p class="experience-company">Bank Al-Maghrib <span>· Rabat</span></p>
+              <p>Réalisation d’un prototype de chatbot intelligent pour l’apprentissage, avec reconnaissance vocale et échanges en temps réel via WebSockets. Intégration de l’interface React et Vite dans une organisation Scrum, puis présentation au comité d’innovation.</p>
+              <div class="tag-list"><span>React</span><span>Vite</span><span>WebSockets</span><span>Scrum</span><span>IA</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section-shell section-space" id="projets" aria-labelledby="projects-title">
+        <div class="section-kicker reveal"><span>03 / Sélection</span><span class="kicker-line"></span></div>
+        <div class="section-heading reveal">
+          <h2 id="projects-title">Des idées<br /><span>en mouvement.</span></h2>
+          <p>Des projets académiques qui explorent des usages utiles et des solutions complètes.</p>
+        </div>
+        <div class="project-carousel reveal" aria-roledescription="carrousel" aria-label="Projets sélectionnés">
+          <div class="project-stage">
+            <article class="project-slide is-active" aria-roledescription="diapositive" aria-label="Projet 1 sur 3">
+              <div class="project-media media-stock">
+                <img src="assets/1.jpeg" alt="Aperçu du projet de gestion de stock" loading="lazy" />
+                <span class="media-placeholder" aria-hidden="true"><b>01</b><span>Gestion de stock</span><i>STOCK / INVENTAIRE</i></span>
+                <span class="media-corner" aria-hidden="true">SB — PROJET</span>
+              </div>
+              <div class="project-copy">
+                <div class="project-copy-top"><p class="project-type">Plateforme web</p><span class="project-index">01 / 03</span></div>
+                <h3>Gestion de stock<br /><span>& inventaire.</span></h3>
+                <p class="project-description">Une plateforme de gestion d’inventaire avec catalogue, suivi des fournisseurs et tableau de bord analytique.</p>
+                <div class="project-meta"><span>React</span><span>API REST</span><span>PostgreSQL</span></div>
+              </div>
+            </article>
+            <article class="project-slide" aria-roledescription="diapositive" aria-label="Projet 2 sur 3" hidden>
+              <div class="project-media media-repair">
+                <img src="assets/2.png" alt="Aperçu du projet de gestion des réparations" loading="lazy" />
+                <span class="media-placeholder" aria-hidden="true"><b>02</b><span>Gestion des réparations</span><i>ATELIER / SUIVI</i></span>
+                <span class="media-corner" aria-hidden="true">SB — PROJET</span>
+              </div>
+              <div class="project-copy">
+                <div class="project-copy-top"><p class="project-type">Application desktop</p><span class="project-index">02 / 03</span></div>
+                <h3>Gestion de magasin<br /><span>& réparations.</span></h3>
+                <p class="project-description">Une application de bureau pour suivre les stocks, les réparations, les tickets et les factures dans un même outil.</p>
+                <div class="project-meta"><span>Java Swing</span><span>JDBC</span><span>MySQL</span></div>
+              </div>
+            </article>
+            <article class="project-slide" aria-roledescription="diapositive" aria-label="Projet 3 sur 3" hidden>
+              <div class="project-media media-hotel">
+                <img src="assets/3.jpg" alt="Aperçu du projet de gestion hôtelière" loading="lazy" />
+                <span class="media-placeholder" aria-hidden="true"><b>03</b><span>Gestion hôtelière</span><i>ACCUEIL / SÉJOUR</i></span>
+                <span class="media-corner" aria-hidden="true">SB — PROJET</span>
+              </div>
+              <div class="project-copy">
+                <div class="project-copy-top"><p class="project-type">Application full-stack</p><span class="project-index">03 / 03</span></div>
+                <h3>Système de gestion<br /><span>hôtelière.</span></h3>
+                <p class="project-description">Un système d’information pour gérer les réservations, les chambres et les opérations quotidiennes d’un hôtel.</p>
+                <div class="project-meta"><span>Spring Boot</span><span>React</span><span>MySQL</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-controls">
+            <div class="carousel-dots" role="group" aria-label="Choisir un projet">
+              <button type="button" class="carousel-dot is-active" aria-label="Afficher le projet 1" aria-current="true"></button>
+              <button type="button" class="carousel-dot" aria-label="Afficher le projet 2"></button>
+              <button type="button" class="carousel-dot" aria-label="Afficher le projet 3"></button>
+            </div>
+            <span class="carousel-hint">Défilement automatique</span>
+            <div class="carousel-buttons">
+              <button class="carousel-pause" type="button" aria-label="Mettre le défilement en pause" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
+              <button class="carousel-previous" type="button" aria-label="Projet précédent"><span aria-hidden="true">←</span></button>
+              <button class="carousel-next" type="button" aria-label="Projet suivant"><span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="expertise section-shell section-space" id="competences" aria-labelledby="expertise-title">
+        <div class="section-kicker reveal"><span>04 / Expertise</span><span class="kicker-line"></span></div>
+        <div class="section-heading reveal">
+          <h2 id="expertise-title">Les outils pour<br /><span>aller plus loin.</span></h2>
+          <p>Une base technique polyvalente, nourrie par la pratique et l’apprentissage continu.</p>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-group reveal"><span class="expertise-count">01</span><h3>Backend & architecture</h3><p>Java 17, Spring Boot, microservices, API REST, JWT, .NET, Python</p></article>
+          <article class="expertise-group reveal"><span class="expertise-count">02</span><h3>Frontend & web</h3><p>Angular, React, Next.js, Vite, JavaScript</p></article>
+          <article class="expertise-group reveal"><span class="expertise-count">03</span><h3>Données & qualité</h3><p>PostgreSQL, MySQL, tests unitaires, tests d’intégration, documentation</p></article>
+          <article class="expertise-group reveal"><span class="expertise-count">04</span><h3>Outils & méthodes</h3><p>Docker, Git, GitHub Actions, UML, Merise, Agile, Scrum</p></article>
+        </div>
+        <div class="certifications reveal">
+          <div class="certifications-heading"><h3>Certifications</h3><span>01 — 06</span></div>
+          <ul>
+            <li><span>Oracle Certified Professional</span><span>Java SE 17 Developer</span></li>
+            <li><span>Python for Data Science & AI</span><span>IBM</span></li>
+            <li><span>Agile Project Management</span><span>Google</span></li>
+            <li><span>React Native</span><span>Meta</span></li>
+            <li><span>Software Design & Management</span><span>HKUST</span></li>
+            <li><span>Introduction to Big Data</span><span>UC San Diego</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="education section-shell" aria-labelledby="education-title">
+        <div class="section-kicker reveal"><span>05 / Formation & engagement</span><span class="kicker-line"></span></div>
+        <div class="education-grid">
+          <div class="education-column reveal">
+            <h2 id="education-title">En formation,<br /><span>en action.</span></h2>
+            <article class="education-entry"><span class="education-year">2022 — Présent</span><h3>Diplôme d’ingénieur d’État en génie informatique</h3><p>EMSI · École Marocaine des Sciences de l’Ingénieur, Rabat</p></article>
+            <article class="education-entry"><span class="education-year">2021 — 2022</span><h3>Baccalauréat scientifique, sciences physiques</h3><p>Mention Bien · Lycée Abi Bakr Assedik, Témara</p></article>
+          </div>
+          <div class="community-column reveal">
+            <p class="community-label">Engagement associatif</p>
+            <article class="community-entry"><h3>Enactus EMSI Rabat</h3><p>Conception et gestion de projets d’entrepreneuriat social et d’innovation d’impact.</p></article>
+            <article class="community-entry"><h3>Rotaract Rabat Excellence</h3><p>Actions humanitaires, développement du leadership et travail d’équipe.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-shell section-space" id="contact" aria-labelledby="contact-title">
+        <div class="section-kicker reveal"><span>06 / Contact</span><span class="kicker-line"></span></div>
+        <div class="contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Un projet en tête ?</p>
+            <h2 id="contact-title">Faisons quelque<br /><span>chose d’utile.</span></h2>
+            <a class="contact-email" href="mailto:saraberrada670@gmail.com">saraberrada670@gmail.com <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-details reveal">
+            <div><span class="detail-label">Basée à</span><p>Témara, Maroc</p></div>
+            <div><span class="detail-label">Réseau professionnel</span><a href="https://www.linkedin.com/in/saraberrada" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
+            <a class="button button-primary contact-button" href="mailto:saraberrada670@gmail.com">Écrire un message <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <footer class="site-footer"><a class="wordmark" href="#accueil">SB<span>.</span></a><p>Conçu avec intention · 2026</p><a href="#accueil">Retour en haut ↑</a></footer>
+      </section>
+    </main>
+  </body>
+</html>
